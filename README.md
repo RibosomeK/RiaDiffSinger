@@ -35,7 +35,7 @@
 
 ### 音素
 
-本声库的音素方案修改自 [ARPABET](https://en.wikipedia.org/wiki/ARPABET)，并借用了 [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) 中的一些概念，在只包含小写字母和半角分号 `:` 的情况写囊括了粤语、日语、普通话、英语的发音。其中**元音以 2 位小写字母表示；辅音以 1~2 位小写字母表示；音尾以半角分号 `:` 加 1位小写字母表示**。不同于原 ARPABET 方案的地方会以星号 <b>*</b>标记。另外包括的特殊音素统一为 DiffSinger 默认的保留音素格式，即双大写字母。
+本声库的音素方案修改自 [ARPABET](https://en.wikipedia.org/wiki/ARPABET)，并借用了 [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) 中的一些概念，在只包含小写字母和半角分号 `:` 的情况写囊括了粤语、日语、普通话、英语的发音。其中**元音以 2 位小写字母表示；辅音以 1~2 位小写字母表示；音尾以半角分号 `:` 加 1位小写字母表示**。不同于原 ARPABET 方案的地方会以星号 <b>*</b> 标记。另外包括的特殊音素统一为 DiffSinger 默认的保留音素格式，即双大写字母。
 
 **注：本声库不包含英语采样及其独占音素！**
 

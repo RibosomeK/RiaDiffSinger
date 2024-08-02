@@ -1,6 +1,6 @@
 # 用前须知
 
-本文是关于 **DiffSinger 声库：Ria / 狸安** 的特性说明、使用规范及制作中用到的参考。请在阅读仔细阅读本文后且同意相关条款后再进行使用。
+本文是关于 **DiffSinger 声库：Ria / 狸安** 的特性、使用规范及制作用参考的说明。请在**仔细阅读本文且同意相关条款后**再进行使用。
 
 1. [声库特性](#声库特性)
     1. [基本信息](#基本信息)
@@ -37,7 +37,7 @@
 
 ### 音素
 
-本声库的音素方案修改自 [ARPABET](https://en.wikipedia.org/wiki/ARPABET)，并借用了 [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) 中的一些概念，在只包含小写字母和半角分号 `:` 的情况写囊括了粤语、日语、普通话、英语的发音。其中**元音以 2 位小写字母表示；辅音以 1~2 位小写字母表示；音尾以半角分号 `:` 加 1位小写字母表示**。不同于原 ARPABET 方案的地方会以星号 <b>*</b> 标记。另外包括的特殊音素统一为 DiffSinger 默认的保留音素格式，即双大写字母。
+本声库的音素方案修改自 [ARPABET](https://en.wikipedia.org/wiki/ARPABET)，并借用了 [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) 中的一些概念，在只包含小写字母和半角分号 `:` 的情况写囊括了粤语、日语、普通话、英语的发音。其中**元音以 2 位小写字母表示；辅音以 1~2 位小写字母表示；音尾以半角分号 `:` 加 1位小写字母表示**。不同于原 ARPABET 方案的地方会以星号 <b>`*`</b> 标记。另外包括的特殊音素统一为 DiffSinger 保留音素的格式，即双大写字母。
 
 **注：本声库不包含英语采样及其独占音素！**
 
@@ -145,7 +145,7 @@
 
 粤语字典 `dsdict-zh-yue.yaml` 内除了包含粤拼作为输入方式外，还包含了大陆地区通用规范汉字约 8000 个，香港地区常用字字表约 4700 个，即还可以输入汉字字符作为歌词。使用时请选择 `DIFFS ZH-YUE` 作为音素器，并请注意由于多音字的存在，使用汉字字符作为歌词输入不可能百分百得到合适的发音，还请手动调整。
 
-普通话字典 `dsdict-zh.yaml` 则以拼音（pinyin）、注音、汉字字符作为输入方式。其中汉字字符包含大陆地区通用规范汉字约 8000 个，台湾地区国字标准字体表-常用（甲表）约 4800 个，台湾地区国字标准字体表-次常用（乙表）约 6300 个。使用时请选择 `DIFFS-ZH` 作为音素器，同样的请注意使用 汉字字符作为歌词输入时可能存在的不合适发音。
+普通话字典 `dsdict-zh.yaml` 则以拼音（pinyin）、注音、汉字字符作为输入方式。其中汉字字符包含大陆地区通用规范汉字约 8000 个，台湾地区国字标准字体表-常用（甲表）约 4800 个，台湾地区国字标准字体表-次常用（乙表）约 6300 个。使用时请选择 `DIFFS-ZH` 作为音素器，同样的请注意，使用汉字字符作为歌词输入时可能存在的不合适发音。
 
 日语字典 `dsdict-ja.yaml` 包含了平假名和一部分用作外来语的片假名，以及其对应的罗马字（romaji）。使用时请选择 `DIFFS-JA` 作为音素器。
 
@@ -154,8 +154,8 @@
 ## 使用方式
 
 1. 编辑器请使用 [OpenUTAU](https://github.com/stakira/OpenUtau) 0.1.529 及以上的版本
-2. 请下载声码器 [NSF-HiFiGAN](https://github.com/openvpi/vocoders/releases)，下载文件后缀命为 `.oudep` 的文件，并作为依赖安装到 OpenUTAU 中
-3. 在OpenUTAU 的编辑器界面的菜单栏上选择 `工具 -> 安装歌手`，并选择声库压缩包，按照提示，在出现 `歌手类型` 时选择 `diffsinger` 进行安装
+2. 请下载声码器 [NSF-HiFiGAN](https://github.com/openvpi/vocoders/releases)，下载文件后缀名为 `.oudep` 的文件，并作为依赖安装到 OpenUTAU 中。安装方式为在 OpenUTAU 的编辑器界面的菜单栏上选择 `工具 -> 安装依赖项（.oudep)`，并选择方才下载的声码器进行安装
+3. 在 OpenUTAU 的编辑器界面的菜单栏上选择 `工具 -> 安装歌手`，并选择声库压缩包，按照提示，在出现 `歌手类型` 时选择 `diffsinger` 进行安装
 4. 更详细的使用方式请参阅 [OpenUTAU 文档](https://opensynth.miraheze.org/wiki/OpenUTAU/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
 
@@ -163,8 +163,8 @@
 ## 使用规范
 
 1. 本声库使用规范默认采用**白名单**，只有本节提及的使用方式是被允许的
-2. 经该声库直接输出的音频文件，**可以**直接或经过重采样、混音、母带（以下简称加工），以媒体方式（以下简称媒体）进行传播展示，**且需要**注明任一声库姓名。
-3. 加工过程中所使用的插件、效果器的类型**不能**包括 RVC（real-time voice changer）、SVC（singing voice changer）等具有变声器效果的软件
+2. 经该声库直接输出的音频文件，**可以**直接或经过重采样、混音、母带（以下简称加工），以媒体方式（以下简称媒体）进行传播展示，**且需要**注明声库的任一姓名。
+3. 加工过程中所使用插件、效果器的类型**不能**包括 RVC（real-time voice changer）、SVC（singing voice changer）等具有变声器效果的软件
 4. 媒体**不能**包含或用于制造：hate speech（仇恨发言）、spamming（骚扰）、trolling（钓鱼式发言）、fighting words（引战）
 
 
@@ -185,7 +185,7 @@
 - [DiffSinger 教程](https://openvpi-docs.feishu.cn/wiki/KmBFwoYDEixrS4kHcTAcajPinPe)
 - [OpenUTAU](https://github.com/stakira/OpenUtau)
 - [OpenCC](https://github.com/BYVoid/OpenCC)
-- [textgrid](https://github.com/kylebgorman/textgrid)
+- [pytextgrid](https://github.com/kylebgorman/textgrid)
 - [pypinyin](https://github.com/mozillazg/python-pinyin)
 - [pycantonese](https://pycantonese.org/jyutping.html)
 - [pyzhuyin](https://pypi.org/project/pyzhuyin/)

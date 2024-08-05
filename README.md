@@ -4,7 +4,7 @@
 
 1. [声库特性](#声库特性)
     1. [基本信息](#基本信息)
-    1. [音素](#音素)
+    1. [音素（暂行）](#音素暂行)
         1. [元音](#元音)
         1. [音尾](#音尾)
         1. [辅音](#辅音)
@@ -35,7 +35,13 @@
 
 试听曲：[詩](https://www.bilibili.com/audio/au4489066)（粤语）
 
-### 音素
+### 音素（暂行）
+
+---
+
+**DiffSinger 已正式推出[多语言字典分支版本](https://github.com/openvpi/DiffSinger/tree/multi-dict)及其[说明](https://github.com/openvpi/DiffSinger/discussions/203)，预计在 OpenUTAU 对其正式后会对现行音素方案进行少量修改。**
+
+---
 
 本声库的音素方案修改自 [ARPABET](https://en.wikipedia.org/wiki/ARPABET)，并借用了 [X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA) 中的一些概念，在只包含小写字母和半角分号 `:` 的情况写囊括了粤语、日语、普通话、英语的发音。其中**元音以 2 位小写字母表示；辅音以 1~2 位小写字母表示；音尾以半角分号 `:` 加 1位小写字母表示**。不同于原 ARPABET 方案的地方会以星号 <b>`*`</b> 标记。另外包括的特殊音素统一为 DiffSinger 保留音素的格式，即双大写字母。
 

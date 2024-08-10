@@ -33,7 +33,11 @@
 
 可用音域：A2~G#4
 
-试听曲：[詩](https://www.bilibili.com/audio/au4489066)（粤语）
+试听曲：
+
+ - 粤语：[詩](https://www.bilibili.com/audio/au4489066)
+ - 普通话：[火星沼泽](https://www.bilibili.com/audio/au4497879)
+ - 日语：[少女レイ](https://www.bilibili.com/audio/au4494584)、[ドーナツホール](https://www.bilibili.com/audio/au4498425)
 
 ### 音素（暂行）
 

@@ -43,7 +43,9 @@
 
 ---
 
-**DiffSinger 已正式推出[多语言字典分支版本](https://github.com/openvpi/DiffSinger/tree/multi-dict)及其[说明](https://github.com/openvpi/DiffSinger/discussions/203)，预计在 OpenUTAU 对其正式后会对现行音素方案进行少量修改。**
+<del>**DiffSinger 已正式推出[多语言字典分支版本](https://github.com/openvpi/DiffSinger/tree/multi-dict)及其[说明](https://github.com/openvpi/DiffSinger/discussions/203)，预计在 OpenUTAU 对其正式后会对现行音素方案进行少量修改。**</del>
+
+**2024.08.22 更新：关于多字典分支，经测试后预计后续更新不会更新适配，而是保留现行合并方案。**
 
 ---
 

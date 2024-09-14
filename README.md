@@ -2,6 +2,12 @@
 
 本文是关于 **DiffSinger 声库：Ria / 狸安** 的特性、使用规范及制作用参考的说明。请在**仔细阅读本文且同意相关条款后**再进行使用。
 
+## 更新日志
+
+2024.09.14 增加 [lynxnet](https://github.com/openvpi/DiffSinger/pull/200) 分支的声库版本。该版本未新增采样及更改标记。
+
+---
+
 1. [声库特性](#声库特性)
     1. [基本信息](#基本信息)
     1. [音素（暂行）](#音素暂行)
@@ -14,6 +20,8 @@
 1. [使用规范](#使用规范)
 1. [已知不符预期的表现（Bugs）](#已知不符预期的表现bugs)
 1. [致谢](#致谢)
+
+---
 
 ## 声库特性
 
@@ -35,8 +43,8 @@
 
 试听曲：
 
- - 粤语：[詩](https://www.bilibili.com/audio/au4489066)、[視愛睇驗](https://www.bilibili.com/audio/au4506877)
- - 普通话：[火星沼泽](https://www.bilibili.com/audio/au4497879)
+ - 粤语：[詩](https://www.bilibili.com/audio/au4489066)、[視愛睇驗](https://www.bilibili.com/video/BV1HLpSexEWj)
+ - 普通话：[火星沼泽](https://www.bilibili.com/video/BV1GKpceMEPt)
  - 日语：[少女レイ](https://www.bilibili.com/audio/au4494584)、[ドーナツホール](https://www.bilibili.com/audio/au4498425)
 
 ### 音素（暂行）

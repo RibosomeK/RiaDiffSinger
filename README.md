@@ -6,6 +6,8 @@
 
 2024.09.14 增加 [lynxnet](https://github.com/openvpi/DiffSinger/pull/200) 分支的声库版本。该版本未新增采样及更改标记。
 
+2024.09.15 增加 [multi-dict](https://github.com/openvpi/DiffSinger/discussions/203) 分支的声库版本。该版本未新增采样及更改标记。该版本使用需求 OpenUtau 版本 v0.1.543.0 及以上。
+
 ---
 
 1. [声库特性](#声库特性)

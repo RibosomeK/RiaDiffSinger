@@ -47,7 +47,7 @@
 
  - 粤语：[詩](https://www.bilibili.com/audio/au4489066)、[視愛睇驗](https://www.bilibili.com/video/BV1HLpSexEWj)
  - 普通话：[火星沼泽](https://www.bilibili.com/video/BV1GKpceMEPt)
- - 日语：[少女レイ](https://www.bilibili.com/audio/au4494584)、[ドーナツホール](https://www.bilibili.com/audio/au4498425)
+ - 日语：[セブンティーナ](https://www.bilibili.com/video/BV1r7ifYAENK/)、[少女レイ](https://www.bilibili.com/audio/au4494584)、[ドーナツホール](https://www.bilibili.com/audio/au4498425)
 
 ### 音素（暂行）
 

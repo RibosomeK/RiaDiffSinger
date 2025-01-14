@@ -4,6 +4,9 @@
 
 ## 更新日志
 
+- 2025.01.14
+    - 增加自动音高和微调声码器两个扩展包，适用于 [Ria-DiffSinger-v0.4](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4) 以及 [Ria-DiffSinger-v0.4-lynxnet](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4-lynxnet)， 使用方式参见 [Release](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4-dlc) 页面。
+
 - 2024.09.15 
     - 增加 [multi-dict](https://github.com/openvpi/DiffSinger/discussions/203) 分支的声库版本。该版本未新增采样及更改标记。该版本使用需求 OpenUtau 版本 v0.1.543.0 及以上。
 
@@ -178,6 +181,7 @@
 ## 使用方式
 
 1. 编辑器请使用 [OpenUTAU](https://github.com/stakira/OpenUtau) 0.1.529 及以上的版本
+2. 请前往 [Release](https://github.com/RibosomeK/RiaDiffSinger/releases) 下载任一版本的声库`（Ria-*.zip）`，当前推荐 lynxnet 分支版本
 2. 请下载声码器 [NSF-HiFiGAN](https://github.com/openvpi/vocoders/releases)，下载文件后缀名为 `.oudep` 的文件，并作为依赖安装到 OpenUTAU 中。安装方式为在 OpenUTAU 的编辑器界面的菜单栏上选择 `工具 -> 安装依赖项（.oudep)`，并选择方才下载的声码器进行安装
 3. 在 OpenUTAU 的编辑器界面的菜单栏上选择 `工具 -> 安装歌手`，并选择声库压缩包，按照提示，在出现 `歌手类型` 时选择 `diffsinger` 进行安装
 4. 更详细的使用方式请参阅 [OpenUTAU 文档](https://opensynth.miraheze.org/wiki/OpenUTAU/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)

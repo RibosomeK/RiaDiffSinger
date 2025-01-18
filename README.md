@@ -4,6 +4,9 @@
 
 ## 更新日志
 
+- 2025.01.18
+    - 增加 [TPSE](https://github.com/KakaruHayate/DiffSinger/tree/TPSE) 分支的声库版本。该版本未新增采样及更改标记。详情请看 [Release](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4-tpse) 页面。
+
 - 2025.01.14
     - 增加自动音高和微调声码器两个扩展包，适用于 [Ria-DiffSinger-v0.4](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4) 以及 [Ria-DiffSinger-v0.4-lynxnet](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4-lynxnet)， 使用方式参见 [Release](https://github.com/RibosomeK/RiaDiffSinger/releases/tag/v0.4-dlc) 页面。
 
